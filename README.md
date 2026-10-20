@@ -1,36 +1,114 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Tech Engineerz
+
+### Building Digital Experiences. Engineering What's Next.
+
+Tech Engineerz is a digital agency focused on modern web development, thoughtful UI/UX design, and AI-powered digital solutions.
+
+We aim to help businesses build a strong online presence through responsive websites, engaging user experiences, and modern technologies.
+
+## About the Project
+
+This repository contains the source code for the official Tech Engineerz website. It showcases the agency's services, portfolio, development process, and contact information through a modern, responsive interface.
+
+## Services
+
+- **Web Development** — Responsive, modern websites tailored to business needs.
+- **UI/UX Design** — User-friendly interfaces with a focus on clarity and usability.
+- **AI Solutions** — AI-powered tools and automation concepts for digital workflows.
+- **Website Optimization** — Performance, responsiveness, and user experience improvements.
+
+## Tech Stack
+
+- **Framework:** Next.js
+- **Frontend:** React
+- **Language:** TypeScript
+- **Styling:** Tailwind CSS
 
 ## Getting Started
 
-First, run the development server:
+Follow these instructions to run the project locally.
+
+### Prerequisites
+
+Install [Node.js](https://nodejs.org/) and npm.
+
+### Installation
+
+**1. Clone the repository**
+
+```bash
+git clone https://github.com/Akshayverma961/tech-engineerz.git
+```
+
+**2. Navigate to the project directory**
+
+```bash
+cd tech-engineerz
+```
+
+**3. Install dependencies**
+
+```bash
+npm install
+```
+
+**4. Start the development server**
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+**5. Open the website**
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Visit [http://localhost:3000](http://localhost:3000) in your browser.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Project Structure
 
-## Learn More
+```text
+tech-engineerz/
+├── public/
+│   └── images/
+├── src/
+│   ├── app/
+│   ├── components/
+│   └── data/
+├── package.json
+├── package-lock.json
+├── next.config.ts
+├── tsconfig.json
+└── README.md
+```
 
-To learn more about Next.js, take a look at the following resources:
+## Development
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+The website is built with the Next.js App Router. Application pages, shared components, and project data are organized under `src/`.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+To create a production build, run:
 
-## Deploy on Vercel
+```bash
+npm run build
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+To start the production server after building, run:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```bash
+npm run start
+```
+
+## Deployment
+
+This project can be deployed on [Vercel](https://vercel.com/), which supports Next.js applications.
+
+For deployment guidance, see the [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying).
+
+## Project Status
+
+The Tech Engineerz website is under active development. Services, portfolio projects, and website features may change as the project evolves.
+
+## Contact
+
+For business inquiries and collaboration, use the contact information published on the official Tech Engineerz website.
+
+## License
+
+No open-source license has been specified for this repository. All rights are reserved unless otherwise stated.
