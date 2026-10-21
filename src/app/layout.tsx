@@ -17,8 +17,9 @@ const sora = Sora({
 
 export const metadata: Metadata = {
   metadataBase: new URL(
-    process.env.NEXT_PUBLIC_SITE_URL || "https://example.com"
-  ),
+  process.env.NEXT_PUBLIC_SITE_URL ||
+    "https://techengineerz.vercel.app"
+),
 
   title: {
     default: "Tech Engineerz | Web Development, AI & Automation",
