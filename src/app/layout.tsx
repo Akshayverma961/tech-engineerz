@@ -20,6 +20,9 @@ export const metadata: Metadata = {
   process.env.NEXT_PUBLIC_SITE_URL ||
     "https://techengineerz.vercel.app"
 ),
+  alternates: {
+  canonical: "/",
+},
 
   title: {
     default: "Tech Engineerz | Web Development, AI & Automation",
